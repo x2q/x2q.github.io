@@ -1,0 +1,17 @@
+# Github pages settings
+safe: true
+markdown: redcarpet
+pygments: true
+
+# Custom
+author:
+  name: x2q
+  email: x2q@x2q.net
+  github: x2q
+  twitter: x2qnet
+  feedburner: x2q
+
+permalink: /:year/:month/:day/:title/
+url: http://www.x2q.net
+name: my online notes
+description: a blog on open source hacking and payments
