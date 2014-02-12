@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "How to use Google Speech API"
-date: 2013-09-16 12:24
+title: How to use Google Speech API
+date: "2013-09-16 12:24"
 comments: true
-tags:
-- Google Speech API
-- HTML5
-- Curl
-- Speech recognition
-- Artificial intelligence
-- Machine learning
-- API
-- Google Chrome
-- FLAC
-- Speech To Text API
+tags: 
+  - Google Speech API
+  - HTML5
+  - Curl
+  - Speech recognition
+  - Artificial intelligence
+  - Machine learning
+  - API
+  - Google Chrome
+  - FLAC
+  - Speech To Text API
+published: true
 ---
 
 I few years ago, Google embedded speech recognition into the [Google
@@ -53,7 +54,7 @@ curl -v -i -X POST -H "Content-Type:audio/x-flac; rate=16000" \
 
 The result looks like this:
 
-```
+```json
 {
   "status":0,
   "id":"f2661df1f2661df1f2661df1f2661df1124-2",
@@ -64,7 +65,6 @@ The result looks like this:
 }
 ```
 
-
 ### Query Parameters
 
 `-H "Content-Type:audio/x-flac; rate=16000"`
@@ -72,7 +72,6 @@ This tells the Speech API that we send a FLAC file with the bitrate of 16000 Hz.
 
 `-T speech.flac`
 This attaches the content of the speech.flac file to the HTTP POST
-
 
 `client`
 The client's name you're connecting from. For spoofing purposes,
@@ -99,4 +98,3 @@ response and not HTTP error codes
 [2]: http://www.chromium.org/
 [3]: https://xiph.org/flac/
 [4]: http://curl.haxx.se/
-
